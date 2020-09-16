@@ -33,7 +33,7 @@ For general usage instructions for this repo, we refer to the [original reposito
 To use S2SD with any DML objective, simply run
 
 ```
-python main.py --source $datapath --n_epochs 150 --log_online --project <your_project_name> --group <run_name_which_groups_seeds>
+python main.py --dataset cub200 --source $datapath --n_epochs 150 --log_online --project <your_project_name> --group <run_name_which_groups_seeds>
 --seed 0 --gpu $gpu --bs 112 --loss s2sd --loss_distill_source multisimilarity --loss_distill_target multisimilarity
 --loss_distill_T 1 --loss_distill_w 50 --loss_distill_net_dims 512 1024 1536 2048 --loss_distill_match_feats
 --loss_distill_feat_w 50 --arch resnet50_frozen_normalize --embed_dim 128 --loss_distill_max_feat_iter 1000
