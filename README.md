@@ -15,7 +15,6 @@ Simultaneous Similarity-based Self-Distillation, or S2SD for short, is a cheap a
 It learns high-dimensional, better generalizing context during training which it distills into a base embedding space, while also tackling the dimensional bottleneck between feature representations and final embeddings. This significantly improves performance at no additional cost at test time and very little changes in training time. It is especially efficient in boosting very low-dimensional embedding spaces, and easily boosts strong baseline objective to achieve state-of-the-art.
 
 <p align="middle">
-  <img src="images/rel_comp.png" width="100%" />
   <img src="images/sota_comp.png" width="100%" />
 </p>
 
