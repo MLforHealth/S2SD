@@ -1,6 +1,6 @@
-# S2SD - Simultaneous Similarity-based Self-Distillation for Deep Metric Learning
+# [S2SD - Simultaneous Similarity-based Self-Distillation for Deep Metric Learning](#)
 
-Authors: Karsten Roth, Timo Milbich, Bjoern Ommer, Joseph Paul Cohen, Marzyeh Ghassemi   
+**Authors**: Karsten Roth, Timo Milbich, Bjoern Ommer, Joseph Paul Cohen, Marzyeh Ghassemi   
 **Contact**: karsten.rh1@gmail.com  
 
 *Suggestions are always welcome!*
