@@ -111,6 +111,8 @@ class Criterion(torch.nn.Module):
             kl_divs.append(self.kl_div(source_smat, target_smat.detach()))
             target_losses.append(target_loss)
 
+        loss = (torch.mean(torch.stack(target_losses)) + loss)/2. + self.w*torch.mean(torch.stack(kl_divs))
+
         ### If enough iterations have passed, start applying feature space distillation to bridge the
         ### dimensionality bottleneck.
         if self.match_feats and self.iter_count>=self.max_feat_iter:
