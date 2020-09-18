@@ -66,7 +66,14 @@ Besides basic parameters, S2SD introduces the following new parameters:
 ## Citations
 If you use this repository, please make sure to cite the S2SD paper:
 ```
-bibtex
+@misc{roth2020s2sd,
+    title={S2SD: Simultaneous Similarity-based Self-Distillation for Deep Metric Learning},
+    author={Karsten Roth and Timo Milbich and Björn Ommer and Joseph Paul Cohen and Marzyeh Ghassemi},
+    year={2020},
+    eprint={2009.08348},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ```
 
 If you use the base code in this repo (and thus of [this repo](https://github.com/Confusezius/Revisiting_Deep_Metric_Learning_PyTorch)), please make sure to also cite the original paper:
